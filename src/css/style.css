@@ -1,0 +1,106 @@
+:root {
+  --font: "Alegreya Sans SC";
+  --font2: "Poppins";
+  --color-blue1: #4361ee;
+  --color-blue2: #0e1c36;
+  --color-black: #0a100d;
+  --color-beige: #ffede1;
+  --color-gray: #f1e9e9;
+  --color-white: #ffffff;
+}
+
+* {
+  margin: 0;
+  padding: 0px;
+
+}
+=======
+#header {
+  margin: 30px 50px 0px 50px;
+  align-items: center;
+}
+#central-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+#logo {
+  font-size: 50px;
+  font-family: var(--font);
+}
+
+.collor-leters {
+  color: var(--color-blue1);
+  font-size: 100px;
+}
+
+#navigation-ul {
+  display: flex;
+  list-style: none;
+  gap: 45px;
+}
+
+.li-navigation a {
+  text-decoration: none;
+  color: #0a100de1;
+  font-size: 40px;
+  font-weight: 400;
+  font-family: var(--font2);
+}
+
+#btn-one {
+  font-size: 17px;
+  padding: 20px;
+  background-color: transparent;
+  border: 1px solid var(--color-black);
+  border-radius: 4px;
+}
+
+#btn-two {
+  margin-left: 20px;
+  font-size: 16px;
+  padding: 15px;
+  border-radius: 5px;
+  color: var(--color-white);
+  background-color: var(--color-black);
+}
+
+#btn-one a {
+  color: var(--color-black);
+  text-decoration: none;
+}
+
+#btn-two a {
+  text-decoration: none;
+  color: var(--color-white);
+}
+
+.primeira {
+  max-width: 100%;
+}
+
+.central {
+  /* background-color: crimson; */
+  width: 70rem;
+  height: 40rem;
+  margin-top: 6rem;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.textocentral {
+  text-align: center;
+  font-size: 7rem;
+
+}
+
+.gratis {
+  display: block;
+  text-align: center;
+  padding-top: 3rem;
+  font-size: 9rem;
+  color: var(--color-blue1);
+  font-weight: bold;
+  text-transform: uppercase;
+}
