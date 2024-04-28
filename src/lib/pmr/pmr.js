@@ -2,7 +2,7 @@ let displayW =window.innerWidth;
 let displayH =window.innerHeight;
 if(displayH > displayW){
   displayH = 200
-  displayW = 300
+  displayW = 350
 }else{
   displayW =window.innerWidth * (70 / 100);
   displayH =window.innerHeight * (77 / 100);
