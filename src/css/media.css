@@ -176,4 +176,23 @@
     font-size: 2em;
     line-height:20px;
   }
+  
+  .primeira{
+    max-height: 30vh;
+  }
+
+  #navigation-ul{
+    padding-top: 50px;
+    display: flex;
+    margin: 0px;
+    width: 100%;
+    min-height: 120vh;
+    flex-direction: column;
+    background-color: #4361ee;
+    position: absolute;
+    top: 0px;
+    left: -400px;
+    align-items: center;
+
+}
 }
