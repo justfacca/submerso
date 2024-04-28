@@ -34,3 +34,5 @@ btnLeft.addEventListener('click', () => {
   tntIframe.innerHTML = listIframe[contador]
   
 });
+
+tntIframe.innerHTML = listIframe[contador]
