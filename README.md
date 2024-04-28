@@ -1,1 +1,2 @@
-Site focado em streaming de jogos esportivos
+SubMerso jogos esportivos 
+Apenas agregador de links.
