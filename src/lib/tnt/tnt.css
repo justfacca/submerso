@@ -1,0 +1,20 @@
+*{
+  padding:0px ;
+  margin: 0;
+}
+
+#iframe-section{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+}
+#div-skip{
+  display: flex;
+  justify-content: center;
+  background-color: rgb(19, 19, 212);
+  width: 600px;
+  height: 80px;
+  gap: 70%;
+}

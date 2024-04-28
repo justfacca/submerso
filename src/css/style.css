@@ -12,6 +12,7 @@
 * {
   margin: 0;
   padding: 0px;
+
 }
 #header {
   margin: 30px 50px 0px 50px;
@@ -26,6 +27,7 @@
 #logo {
   font-size: 50px;
   font-family: var(--font);
+
 }
 
 .collor-leters {
@@ -56,12 +58,16 @@
 }
 
 #btn-two {
-  margin-left: 20px;
-  font-size: 16px;
-  padding: 15px;
-  border-radius: 5px;
-  color: var(--color-white);
-  background-color: var(--color-black);
+  display: none;
+}
+
+.hidden{
+  font-size: 17px;
+  padding: 20px;
+  background-color: transparent;
+  border: 1px solid var(--color-black);
+  border-radius: 4px;
+  display: none;
 }
 
 #btn-one a {
@@ -80,16 +86,21 @@
 
 .central {
   /* background-color: crimson; */
-  width: 70rem;
+  
   height: 40rem;
   margin-top: 6rem;
   margin-left: auto;
   margin-right: auto;
 }
+/* oculto até o commit, para não atrapalhar */
+.central p{
+  display: none;
+}
 
 .textocentral {
   text-align: center;
   font-size: 7rem;
+  
 
 }
 
@@ -101,4 +112,19 @@
   color: var(--color-blue1);
   font-weight: bold;
   text-transform: uppercase;
+}
+
+/* responsive */
+.btn-exit{
+  padding: 10px;
+  border-radius: 10px;
+  border: none;
+  font-size: 20px;
+  background-color: var(--color-gray);
+  cursor: pointer;
+  display: none;
+}
+
+.btn-exit:hover{
+  background-color: #8e8888;
 }
