@@ -1,6 +1,12 @@
-let displayW =window.innerWidth * (90 / 100);
-let displayH =window.innerHeight * (90 / 100);
-
+let displayW =window.innerWidth;
+let displayH =window.innerHeight;
+if(displayH > displayW){
+  displayH = 200
+  displayW = 300
+}else{
+  displayW =window.innerWidth * (90 / 100);
+  displayH =window.innerHeight * (90 / 100);
+}
 
 
 const tntIframe = document.querySelector('#iframe');
