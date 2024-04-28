@@ -14,7 +14,5 @@
   display: flex;
   justify-content: center;
   background-color: rgb(19, 19, 212);
-  width: 600px;
-  height: 80px;
-  gap: 70%;
+  gap: 30%;
 }
