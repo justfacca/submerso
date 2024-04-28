@@ -15,7 +15,7 @@ newCreate.create('Star Plus', './src/lib/strp/strp.html');
 newCreate.create('ESPN', './src/lib/esp/esp.html');
 newCreate.create('Premiere', './src/lib/pmr/pmr.html');
 newCreate.create('TNT', './src/lib/tnt/tnt.html');
-newCreate.create('Sport TV', './src/lib/tnt/tnt.html');
+newCreate.create('Sport TV', './src/lib/sptv/sptv.html');
 
 //channel list
 const chList = document.querySelector('#btn-two')
