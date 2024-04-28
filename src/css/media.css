@@ -110,6 +110,9 @@
     display: none;
   }
 
+  .li-navigation a{
+    font-size: 20px;
+  }
   #logo{
     font-size: 30px;
   }
@@ -152,12 +155,8 @@
     display: block;
   }
 
-  
-}
-
-@media screen and (max-width:320px) {
   #logo{
-    font-size: 20px;
+    font-size: 30px;
   }
 
   #logo span{
@@ -165,7 +164,7 @@
   }
   #btn-two {
     padding: 7px;
-    font-size: 12px;
+    font-size: 18px;
   }
   .central h1{
     font-size: 2.3em;
@@ -178,21 +177,49 @@
   }
   
   .primeira{
-    max-height: 30vh;
+    max-height: 80vh;
   }
 
   #navigation-ul{
     padding-top: 50px;
-    display: flex;
-    margin: 0px;
     width: 100%;
     min-height: 120vh;
     flex-direction: column;
     background-color: #4361ee;
     position: absolute;
     top: 0px;
-    left: -400px;
+    left: -500px;
     align-items: center;
+}
 
+  .btn-exit{
+    display: block;
+  }
+
+.li-navigation a{
+  font-size:25px ;
 }
 }
+
+  @media screen and (max-width:262px) {
+    #logo{
+      font-size: 15px;
+    }
+  
+    #logo span{
+      font-size: 40px;
+    }
+    #btn-two {
+      padding: 2px;
+      font-size: 13px;
+    }
+    .central h1{
+      font-size: 2.3em;
+      line-height: 40px;
+    }
+  
+    .central span{
+      font-size: 2em;
+      line-height:20px;
+    }
+  }

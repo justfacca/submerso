@@ -22,14 +22,19 @@ const chList = document.querySelector('#btn-two')
 const responsiveUl = document.querySelector('#navigation-ul')
 
 chList.addEventListener('click', () => {
+  responsiveUl.style.display = 'flex'
   responsiveUl.style.left = '0px'
- const btnExit = document.createElement('button')
+  responsiveUl.style.transition = '1s'
+ 
+})
+
+const btnExit = document.createElement('p')
+
+ //create button exit
  btnExit.classList.add('btn-exit')
  responsiveUl.appendChild(btnExit)
+ btnExit.innerText = 'Sair'
 
- const btnExitA = document.createElement('a')
- btnExit.appendChild(btnExitA)
- btnExitA.classList.add('btn-exit-a')
- btnExitA.innerText = 'X'
-
+btnExit.addEventListener('click', () => {
+  responsiveUl.style.left = '-600px'
 })
